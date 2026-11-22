@@ -1,0 +1,6 @@
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+marks = float(input("Enter marks: "))
+print("Using format(): {} {} {:.2f}".format(name, age, marks))
+print(f"Using f-string: {name} {age} {marks:.2f}")
+print("Using % operator: %s %d %.2f" % (name, age, marks))
